@@ -1,0 +1,10 @@
+taco:
+  orders:
+    pageSize: 10
+server:
+  port: 8081
+logging:
+  level:
+    root: WARN
+    org.springframework.security: DEBUG
+
