@@ -1,0 +1,22 @@
+taco:
+  orders:
+    pageSize: 10
+server:
+  port: 8081
+spring:
+  data:
+    rest:
+      base-path: /api
+  artemis:
+    host: artemis.tacocloud.com
+    port: 61617
+    user: tacoweb
+    password: l3tm3in
+  jms:
+    template:
+      default-generation: tacocloud.order.queue
+logging:
+  level:
+    root: WARN
+    org.springframework.security: DEBUG
+
